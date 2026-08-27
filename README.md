@@ -10,6 +10,12 @@ TP3 de la materia Aprendizaje Automático. Compara tres enfoques sobre un datase
 - `Estudiantes.csv`: dataset de rendimiento estudiantil usado para entrenar y evaluar los modelos.
 - `TP3.pdf` / `TP3.pptx`: consigna y presentación del trabajo práctico.
 
+## Resultado
+
+- Regresión lineal múltiple: **R² = 0.60** sobre el conjunto de prueba para predecir la calificación.
+- Regresión logística: **83% accuracy, F1 = 0.67** para predecir si el estudiante aprueba.
+- Mejor SVM (kernel lineal, C=10): **85% accuracy, F1 = 0.71**, superando a la regresión logística.
+
 ## Cómo correrlo
 
 ```bash
